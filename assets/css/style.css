@@ -1,76 +1,73 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 /*inicio*/
-h1 {
-    margin: 10px;
-    padding: 20 px;
-    font-style: normal;
-    font-weight: 350px;
-    text-align: center;
-    text-decoration: underline;
-    align-items: center 250px;
-    font-size: 40px;
+/* HEADER */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titulo{
+    color: black;
+    position: relative;
+    left: 550px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color : yellow;
+    font-size: 50px;
+    
+}
+.fondobody  {
+    background-color: #BF2FF5;
+}
+header {
+    display: flex;
+    flex-direction: column;
 }
 
-.nav_ {
-    padding: 1px;
-    top: 0px;
-    list-style-type: none;
-    text-align: none;
-    background-color: #dda0dd;
+/*MENU DESPEGABLE*/
+.navbar {
+    text-decoration: none;
     display: flex;
     
 }
-
-.nav_>ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.navbar-brand {
+    color: pink;
+}
+.nav-item1 {
+    margin: -4px;
+}
+.tamnav {
+    width: 1200px;
+}
+.row, .conteiner, .conteiner-fluid{
+    margin: 0px;
+    padding: 0px;
 }
 
-.nav_>ul>li {
-    display: inline;
-    position: relative;
-    padding: 10px;
-    text-decoration: none;
+
+@media(max-width:720px){
+.nav_{
+        background-color: blue;
+        width: 500px;
+        height: 500px;
+        margin: 10px;
+        
+    }
+    
+}
+.tam {
+    font-size: 25px;
 }
 
-.nav_>ul>li:hover ul {
-    max-height: 100px;
-    transition: 0.5s;
+/* CARRUSEL */
+.carusel-tarjeta {
+    width: 650px;
+    height: 400px;
+    object-fit: contain;
+    left: 300px;
+    margin-top: 25px;
+    border-radius: 20px;
+    object-fit: fill;
 }
-
-.nav_ ul li a {
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-    font-size: 20px;
-}
-
-.nav_>ul>li>ul {
-    display: none;
-    top: 40px;
-    left: 0px;
-    position: absolute;
-    background-color: white;
-    list-style-type: none;
-    left: -12px;
-    max-height: 0;
-    overflow: hidden;
-}
-
-.nav_>ul>li>ul>a {
-    text-decoration: none;
-    color: black;
-    display: inline;
-    padding: 10px;
-}
-
 @media(max-width:720px){
     .nav_{
         background-color: blue;
@@ -79,135 +76,45 @@ h1 {
     }
     
 }
-.redes {
-    height: 70px;
-    width: 20px;
-    display: flex;
-    flex-direction: row;
-    left: 200px;
-    bottom: 1550px;
-    list-style-type: none;
+
+
+.img2 {
+    width: 45px;
+    
 }
-
-.redes1 {
-    list-style-type: none;
-    position: relative;
-    width: 152px;
-    height: 11px;
-
-
+.parraf-opt{
+    font-size: 20px;
+    
+    display: contents;
 }
-
-.redes2 {
-    list-style-type: none;
-    position: relative;
-    width: 152px;
-    height: 11px;
+.multimedia{
+    margin: 14px;
+    
 }
-
-.redes3 {
-    list-style-type: none;
-    position: relative;
-    width: 152px;
-    height: 11px;
-}
-
-main {
-    margin-top: 100px;
-    padding: 20 px;
-}
-
-.imagenOjo {
-    display: inline;
-    width: 15%;
-    height: 150px;
-    left: auto;
-    position: relative;
-    top: 0px;
-    object-fit: cover;
-}
-
-.imagenOjo {
-    background-attachment: fixed;
-    background-size: cover;
-}
-
-.fonde {
-    background-color: #00ced1;
-}
-
-.Header {
-    background-image: url(../img/esta\ si.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    position: absolute;
-    z-index: 2px;
-    top: 330px;
-
-
-}
-
-.letra {
-    color: black;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    font-size: 40px;
-
-}
-
-.bn-he {
-    margin-top: 10px;
-    padding: 5px 10px;
-    position: absolute;
-    border-radius: 10px;
-    overflow: hidden;
-    bottom: 15px;
-
-}
-
-.junto>ul>li {
-    padding-top: -456px;
-    margin-top: 25px;
-    list-style-position: 110px;
-}
-
-.lada {
+.video {
     padding: 10px;
     margin: 20px;
     position: absolute;
-    bottom: -532px;
-
+    bottom: -632px;
+    height: 400px;
+    width: 500px;
 }
 
-.palabra {
-    position: relative;
-    bottom: -300px;
-    text-decoration: none;
-    color: black;
-    justify-content: center;
-    align-items: center;
-}
-
-.lado {
+.mapa {
     padding: 10px;
     margin: 20px;
     position: absolute;
     top: 853px;
     left: 700px;
-    height: 300px;
-    width: 508px;
+    height: 400px;
+    width: 500px;
 }
+
+
 .espp{
     padding: 10px;
     margin: 20px;
     font-size: 25px;
-
 }
 
 .final {
@@ -225,58 +132,20 @@ main {
     padding: 60px;
 }
 
-.login {
-    width: 5px;
-    height: 42px;
-    position: relative;
-    left: 600px;
-    list-style-type: none;
-}
 .esp3 {
     margin: 2px;
     padding-top: 20px;
 }
-.grilla{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 100px 200px 200px 100px;
-    grid-template-areas:"nav nav nav section"
-                        "header header header header"
-                        "main main aside aside"
-                        "footer footer footer footer"
+.mutuales {
+    background-color: #20b2aa;
+    width: 1300px;
 }
-.grilla{
-    justify-items: center;
-    align-items: center;
-}
-nav{
-    grid-area: nav;
-    background-color: pink;
-}
-section{
-    grid-area: section;
-    background-color: blue;
-    justify-self: center;
-    align-self: center;
+.footer1{
+    margin-top: 10px;
+    background-color:pink;
+    width: 380px;
 }
 
-header{
-    grid-area: header;
-    background-color: blueviolet;
-}
-main{
-    grid-area: main;
-    background-color: orangered;
-}
-
-aside{
-    grid-area: aside;
-    background-color: white;
-}
-footer{
-    grid-area: footer;
-    background-color: brown;
-}
 /*productos*/
 .fondu {
     background-color: #dda0dd;
@@ -472,4 +341,8 @@ form {
 
 .fondi {
     background-color: #8fbc8f;
+}
+.info{
+    display: inline;
+    flex-direction: row;
 }
