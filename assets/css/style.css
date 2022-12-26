@@ -348,3 +348,22 @@ form {
 h3{
     font-weight: bold;
 }
+footer {
+    background-color: #2C70EB;
+    height: 170px;
+    margin-top: 25px; 
+    bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    left: -20px;
+}
+.imgfo{
+    height: 40px;
+    
+    
+}
+.footer1{
+    font-size: 15px;
+    background-color: #2C70EB;
+    top: 14px;
+}
