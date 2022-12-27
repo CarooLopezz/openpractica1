@@ -42,15 +42,29 @@ header {
     margin: 0px;
     padding: 0px;
 }
+nav > label {
+    display: none;
+}
+nav > input {
+    display: none;
+}
 
 
-@media(max-width:720px){
-.nav_{
-        background-color: blue;
-        width: 500px;
-        height: 500px;
-        margin: 10px;
-        
+@media(max-width:576px){
+    nav > label {
+        display: block;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+    }
+    nav >input:checked + .topnav {
+        max-height: 400px;
+    }
+    .topnav{
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
     }
     
 }
@@ -280,6 +294,20 @@ td {
     margin: 30px;
     font-weight: bold;
 
+}
+.tarjeta2 {
+    animation-name: mover;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes mover {
+    0%{
+        transform: transalte(0,0);
+    }
+    100%{
+        transform: translate(450px,0);
+    }
 }
 
 .tarjetaFondo {
