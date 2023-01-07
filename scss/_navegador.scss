@@ -1,0 +1,62 @@
+.navbar {
+    text-decoration: none;
+    display: flex;
+    .navbar-brand {
+        color: pink;
+    }
+    .nav-item1 {
+        margin: -4px;
+    }
+    .tamnav {
+        width: 1200px;
+    }
+    .row, .conteiner, .conteiner-fluid{
+        margin: 0px;
+        padding: 0px;
+    }
+    > input {
+    display: none;
+}
+
+
+@media(max-width:576px){
+    nav > label {
+        display: block;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+    }
+    nav >input:checked + .topnav {
+        max-height: 400px;
+    }
+    .topnav{
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+}
+.tam {
+    font-size: 25px;
+}
+
+/* CARRUSEL */
+.carusel-tarjeta {
+    width: 650px;
+    height: 400px;
+    object-fit: contain;
+    left: 300px;
+    margin-top: 25px;
+    border-radius: 20px;
+    object-fit: fill;
+}
+@media(max-width:720px){
+    .nav_{
+        background-color: blue;
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+}

@@ -1,0 +1,709 @@
+@import "reset";
+@import "navegador";
+/*inicio*/
+/* inicio BOOTSTRAP */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.titulo{
+    color: black;
+    position: relative;
+    left: 550px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-fill-color : yellow;
+    font-size: 50px;
+    
+}
+.fondobody  {
+    background-color: #BF2FF5;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+/*MENU DESPEGABLE*/
+.navbar {
+    text-decoration: none;
+    display: flex;
+    
+}
+.navbar-brand {
+    color: pink;
+}
+.nav-item1 {
+    margin: -4px;
+}
+.tamnav {
+    width: 1200px;
+}
+.row, .conteiner, .conteiner-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+nav > label {
+    display: none;
+}
+nav > input {
+    display: none;
+}
+
+
+@media(max-width:576px){
+    nav > label {
+        display: block;
+        color: white;
+        font-size: 30px;
+        padding: 10px;
+    }
+    nav >input:checked + .topnav {
+        max-height: 400px;
+    }
+    .topnav{
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+}
+.tam {
+    font-size: 25px;
+}
+
+/* CARRUSEL */
+.carusel-tarjeta {
+    width: 650px;
+    height: 400px;
+    object-fit: contain;
+    left: 300px;
+    margin-top: 25px;
+    border-radius: 20px;
+    object-fit: fill;
+}
+@media(max-width:720px){
+    .nav_{
+        background-color: blue;
+        width: 500px;
+        height: 500px;
+    }
+    
+}
+
+
+.img2 {
+    width: 45px;
+    
+}
+.parraf-opt{
+    font-size: 20px;
+    
+    display: contents;
+}
+
+.video {
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom: -632px;
+    height: 400px;
+    width: 500px;
+}
+
+.mapa {
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    top: 853px;
+    left: 700px;
+    height: 300px;
+    width: 500px;
+}
+
+
+.espp{
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -858px;
+    height: 189px;
+    width: 56 px;
+    padding: 20px;
+    margin: 15px;
+}
+.distancia{
+    padding: 60px;
+}
+
+.esp3 {
+    margin: 2px;
+    padding-top: 20px;
+}
+.mutuales {
+    background-color: #20b2aa;
+    width: 1300px;
+}
+
+
+/*productos GRILLA Y FLEXBOX*/
+.h1imp {
+    margin: 10px;
+    padding: 20 px;
+    font-style: normal;
+    font-weight: 350px;
+    text-align: center;
+    text-decoration: underline;
+    align-items: center 250px;
+    font-size: 40px;
+}
+
+.nav_ {
+    padding: 1px;
+    top: 0px;
+    list-style-type: none;
+    text-align: none;
+    background-color: #dda0dd;
+    display: flex;
+    
+}
+
+.nav_>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_>ul>li {
+    display: inline;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav_>ul>li:hover ul {
+    max-height: 100px;
+    transition: 0.5s;
+}
+
+.nav_ ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav_>ul>li>ul {
+    display: none;
+    top: 40px;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    left: -12px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.nav_>ul>li>ul>a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 10px;
+}
+
+.fondu {
+    background-color: #dda0dd;
+}
+
+.ya {
+    color: #000000;
+}
+
+.bnpequeño {
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin: 10px 20px 10px 10px;
+    border: black solid 10px;
+    overflow: hidden;
+}
+
+.bn__bn--colorLetra {
+    color: red
+}
+
+.esp-grande {
+    font-size: 30px;
+}
+
+.bn {
+    padding: 10px;
+    margin: 30 px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 20px 30px 10px 10px;
+    border-color: #8b0000;
+}
+.redes {
+    height: 70px;
+    width: 20px;
+    display: flex;
+    flex-direction: row;
+    left: 200px;
+    bottom: 1550px;
+    list-style-type: none;
+}
+
+.redes1 {
+    list-style-type: none;
+    position: relative;
+    width: 152px;
+    height: 11px;
+
+
+}
+
+.redes2 {
+    list-style-type: none;
+    position: relative;
+    width: 152px;
+    height: 11px;
+}
+
+.redes3 {
+    list-style-type: none;
+    position: relative;
+    width: 152px;
+    height: 11px;
+}
+
+main {
+    margin-top: 100px;
+    padding: 20 px;
+}
+
+.imagenOjo {
+    display: inline;
+    width: 15%;
+    height: 150px;
+    left: auto;
+    position: relative;
+    top: 0px;
+    object-fit: cover;
+}
+
+.imagenOjo {
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fonde {
+    background-color: #00ced1;
+}
+
+.Header {
+    background-image: url(../img/esta\ si.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    position: absolute;
+    z-index: 2px;
+    top: 330px;
+
+
+}
+
+.letra {
+    color: black;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size: 40px;
+
+}
+
+.bn-he {
+    margin-top: 10px;
+    padding: 5px 10px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    bottom: 15px;
+
+}
+
+.junto>ul>li {
+    padding-top: -456px;
+    margin-top: 25px;
+    list-style-position: 110px;
+}
+
+.lada {
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    bottom: -532px;
+
+}
+
+.palabra {
+    position: relative;
+    bottom: -300px;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.lado {
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    top: 853px;
+    left: 700px;
+    height: 300px;
+    width: 508px;
+}
+.espp{
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+
+}
+
+.final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -858px;
+    height: 189px;
+    width: 56 px;
+    padding: 20px;
+    margin: 15px;
+}
+.distancia{
+    padding: 60px;
+}
+
+.login {
+    width: 5px;
+    height: 42px;
+    position: relative;
+    left: 600px;
+    list-style-type: none;
+}
+.esp3 {
+    margin: 2px;
+    padding-top: 20px;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 200px 200px 100px;
+    grid-template-areas:"nav nav nav section"
+                        "header header header header"
+                        "main main aside aside"
+                        "footer footer footer footer"
+}
+.grilla{
+    justify-items: center;
+    align-items: center;
+}
+
+
+.fondu {
+    background-color: #dda0dd;
+}
+
+.ya {
+    color: #000000;
+}
+
+.bnpequeño {
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin: 10px 20px 10px 10px;
+    border: black solid 10px;
+    overflow: hidden;
+
+}
+
+.esp-grande {
+    font-size: 30px;
+}
+
+.bn {
+    padding: 10px;
+    margin: 30 px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 20px 30px 10px 10px;
+    border-color: #8b0000;
+}
+
+.bn__bn--colorLetra {
+    color: red
+}
+
+/*ayudas FLEX*/
+.bnmedia {
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin: 10px 20px 10px 10px;
+    border: black solid 10px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bnm {
+    padding: 10px;
+    margin: 30 px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 20px 30px 10px 10px;
+    border-color: #8b0000;
+    display: inline;
+}
+
+
+
+.Caja1 {
+    width: 200px;
+    color: black;
+    padding: 10px;
+}
+
+.Caja2 {
+    width: 150px;
+    color: black;
+    padding: 10px;
+}
+
+.Caja3 {
+    width: 200px;
+    color: black;
+    padding: 10px;
+}
+
+.Caja4 {
+    width: 200px;
+    color: black;
+    padding: 10px;
+}
+
+.Caja5 {
+    width: 200px;
+    color: black;
+    padding: 10px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.ro {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-weight: 500 px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.esp {
+    font-size: large;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.todo {
+    background-color: #E6CD3E
+}
+
+
+
+
+
+
+/*salud visual FLEX*/
+table {
+    border: solid 1px;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th,
+td {
+    border: solid 1px;
+    padding: 10 px;
+}
+
+.tarjeta_priyfin {
+    color: #8b0000;
+}
+
+.espacio {
+    line-height: 25px;
+    margin: 20px;
+
+}
+
+.tarjeta2 {
+    line-height: 25px;
+    margin: 30px;
+    font-weight: bold;
+
+}
+.tarjeta2 {
+    animation-name: mover;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(0,91,);
+}
+@keyframes mover {
+    0%{
+        transform: transalte(0,0);
+    }
+    100%{
+        transform: translate(450px,0);
+    }
+}
+.tarjeta3 {
+    animation-name: mover2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: cubic-bezier(.17,.67,.54,.54);
+}
+@keyframes mover2 {
+    100%{
+        transform: transalte(0,0);
+    }
+    100%{
+        transform: translate(200px,0);
+    }
+}
+
+.tarjetaFondo {
+    background-color: #66FF08;
+    width: 650px;
+}
+
+.espacio3 {
+    margin: 20px;
+    list-style-type: none;
+}
+
+.colorTitulo {
+    color: black;
+
+}
+
+.fondoTitulo {
+    background-color: #ff7f50;
+}
+
+/*ayudas*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.ro {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    font-weight: 500 px
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.esp {
+    font-size: large;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.todo {
+    background-color: #E6CD3E
+}
+
+/*contactos BOOTSTRAP*/
+form {
+    width: 300px;
+
+}
+
+.fondoDisc {
+    background-color: #dda0dd;
+}
+
+.fondoCe {
+    background-color: #20b2aa;
+}
+
+.fondi {
+    background-color: #8fbc8f;
+}
+.info{
+    display: inline-block;
+}
+h3{
+    font-weight: bold;
+}
+footer {
+    
+    height: 170px;
+    margin-top: 25px; 
+    bottom: 0px;
+    text-align: center;
+    font-size: 20px;
+    left: -20px;
+    width: 1350px;
+    right: 150px;
+}
+.imgfo{
+    height: 40px;
+        
+}
+.footer1{
+    background-color: #ff7f50;
+    left: 650px;
+    
+}
+.footer2{
+    background-color: #44498a;
+    font-size: 15px;
+    color: white;
+    top: 14px;
+}
