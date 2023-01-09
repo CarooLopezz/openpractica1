@@ -1,0 +1,159 @@
+.navbar {
+    text-decoration: none;
+    display: flex;
+    .navbar-brand {
+        color: pink;
+    }
+    .nav-item1 {
+        margin: -4px;
+    }
+    .tamnav {
+        width: 1200px;
+    }
+    .row, .conteiner, .conteiner-fluid{
+        margin: 0px;
+        padding: 0px;
+    }
+    > input {
+    display: none;
+    }
+    @media(max-width:576px){
+        nav > label {
+            display: block;
+            color: white;
+            font-size: 30px;
+            padding: 10px;
+    }
+    >input:checked + .topnav {
+        max-height: 400px;
+    }
+    .topnav{
+        flex-direction: column;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .tam {
+        font-size: 25px;
+    }
+}
+
+    
+}
+
+.nav_ {
+    padding: 1px;
+    top: 0px;
+    list-style-type: none;
+    text-align: none;
+    background-color: #dda0dd;
+    display: flex;
+    @media(max-width:576px){
+        
+            background-color: navajowhite;
+            width: auto;
+            height: 1100px;
+            display:block ;
+        }
+    > ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        @media(max-width:576px) {
+            position: absolute;
+            background-color: brown;
+            flex-direction: column;
+            align-items: center;
+            &:hover{
+                left: 0;
+            }
+        }
+        >li {
+            display: inline;
+            position: relative;
+            padding: 10px;
+            text-decoration: none;
+            &:hover ul {
+                max-height: 100px;
+                transition: 0.5s;
+                a {
+                    display: block;
+                    color: black;
+                    text-decoration: none;
+                    padding: 20px;
+                    font-size: 20px;
+                    >a {
+                        text-decoration: none;
+                        color: black;
+                        display: inline;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.nav_ {
+    padding: 1px;
+    top: 0px;
+    list-style-type: none;
+    text-align: none;
+    background-color: #dda0dd;
+    display: flex;
+
+}
+@media(max-width:576px){
+    .nav_{
+        background-color: navajowhite;
+        width: auto;
+        height: 1100px;
+        display:block ;
+    }
+    
+}
+
+.nav_>ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_>ul>li {
+    display: inline;
+    position: relative;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.nav_>ul>li:hover ul {
+    max-height: 100px;
+    transition: 0.5s;
+}
+
+.nav_ ul li a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nav_>ul>li>ul {
+    display: none;
+    top: 40px;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    list-style-type: none;
+    left: -12px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.nav_>ul>li>ul>a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+    padding: 10px;
+}
